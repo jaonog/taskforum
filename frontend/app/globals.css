@@ -1,0 +1,9 @@
+/* frontend/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset simples para evitar problemas de altura em telas menores */
+html, body {
+    height: 100%;
+}
