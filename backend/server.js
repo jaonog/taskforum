@@ -23,7 +23,7 @@ const VERCEL_FRONTEND_URL = process.env.VERCEL_FRONTEND_URL || 'https://jaonog-t
 // Configuração do CORS: Permite acesso tanto do ambiente local quanto da URL de produção
 const corsOptions = {
     // Permite que o ambiente de produção E o ambiente de desenvolvimento acessem a API
-    origin: [VERCEL_FRONTEND_URL, 'http://localhost:3000'],
+    origin: [VERCEL_FRONTEND_URL, 'https://jaonog-taskforum-4mhw.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }; 
