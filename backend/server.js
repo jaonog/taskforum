@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 
 // Variável para a URL de produção do frontend (Vercel/Render)
 // ESTE VALOR DEVE SER CONFIGURADO NAS VARIÁVEIS DE AMBIENTE DO RENDER (VERCEL_FRONTEND_URL)
-const VERCEL_FRONTEND_URL = process.env.VERCEL_FRONTEND_URL || 'https://SUA-URL-VERCEL.vercel.app'; 
+const VERCEL_FRONTEND_URL = process.env.VERCEL_FRONTEND_URL || 'https://jaonog-taskforum-4mhw.vercel.app'; 
 // Substitua a URL padrão acima pela sua URL real, mas garanta que ela esteja no painel do Render!
 
 // Configuração do CORS: Permite acesso tanto do ambiente local quanto da URL de produção
